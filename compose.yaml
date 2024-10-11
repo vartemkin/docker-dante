@@ -1,5 +1,7 @@
 services:
     dante:
+        container_name: my_dante
+        restart: always
         image: adegtyarev/dante
         command: sockd-username
         environment:
