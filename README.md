@@ -40,7 +40,7 @@ For example:
 
 Start a new container:
 
-    $ docker-compose up -d
+    $ docker compose up -d
 
 The SOCKS server should be up and ready to serve.  An example command to test
 the proxy service you have just set up:
